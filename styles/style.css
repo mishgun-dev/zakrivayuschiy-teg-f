@@ -356,8 +356,8 @@
   filter: contrast(200%);
 }
 
-.filter-contrast-brightness {
-  filter: contrast(150%) brightness(150%);
+.filter-miltiply-gradient {
+  filter: contrast(150%) brightness(150%) saturate(150%);
 }
 
 @media (width <=375px) {
