@@ -341,7 +341,7 @@
 .modal__content {
   display: flex;
   align-items: center;
-  gap: 18px;
+  gap: 20px;
   text-transform: uppercase;
 }
 
@@ -379,5 +379,9 @@
 
   .modal[open] {
     padding-inline: 40px;
+  }
+
+  .modal__content {
+    gap: 16px;
   }
 }
