@@ -127,7 +127,6 @@
     0 -1px var(--bg-color);
   inset-block-start: 25px;
   inset-inline-end: 25px;
-  -webkit-text-stroke: 1px #fff;
   mix-blend-mode: hard-light;
 }
 
@@ -329,7 +328,7 @@
   flex-direction: column;
   justify-content: space-between;
   padding: 30px;
-  block-size: 191px;
+  gap: 20px;
   inline-size: 353px;
 }
 
