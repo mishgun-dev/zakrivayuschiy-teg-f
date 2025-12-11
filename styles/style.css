@@ -213,7 +213,7 @@
 
 .sparks {
   opacity: 0;
-  transition: fill 0.3s linear;
+  transition: opacity 0.3s linear;
 }
 
 .heart:hover .core {
@@ -259,10 +259,16 @@
 }
 
 .floppy {
-  color: var(--mix-blend-color);
+  fill: var(--mix-blend-color);
+  stroke: var(--mix-blend-color);
   inline-size: 21px;
   block-size: 21px;
   mix-blend-mode: difference;
+}
+
+.modal:not([open]) {
+  display: none;
+  pointer-events: none;
 }
 
 .modal[open] {
@@ -276,7 +282,7 @@
 
 .modal::backdrop {
   background-color: var(--main-color);
-  opacity: 75%;
+  opacity: 0.75;
 }
 
 .modal__content {
